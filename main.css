@@ -1,0 +1,420 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+:root {
+    --primary-color: rgb(255, 131, 152);
+    --secoundary-color: rgb(0, 0, 32);
+    --third-color: white;
+}
+
+header {
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 1000px;
+    margin: 50px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    padding-top: 2%;
+    display: flex;
+}
+
+.ul-nav {
+    margin-left: 15%;
+    list-style: none;
+}
+
+.ul-nav li {
+    display: inline;
+    padding-right: 50px;
+}
+
+.ul-nav li a,
+i {
+    color: var(--third-color);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.ul-nav li a:hover {
+    color: var(--primary-color);
+}
+
+.logo {
+    margin-left: 10%;
+}
+
+.showcase {
+    display: flex;
+}
+
+.showcase-1 {
+    margin: 10%;
+}
+
+.showcase-1 h3 {
+    font-size: 40px;
+    color: var(--primary-color);
+}
+
+.showcase-1 h1 {
+    font-size: 55px;
+}
+
+.showcase-1 p,
+h1 {
+    color: var(--third-color);
+    padding-bottom: 10px;
+}
+
+.showcase-1 a:first-of-type {
+    background-color: var(--primary-color);
+    color: var(--third-color);
+    width: 100px;
+    font-size: 20px;
+    padding: 15px 60px;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.showcase-1 a:last-of-type {
+    background-color: var(--third-color);
+    color: var(--primary-color);
+    width: 100px;
+    font-size: 20px;
+    padding: 15px 60px;
+    text-decoration: none;
+}
+
+.new-collection h1,
+p {
+    text-align: left;
+    color: black;
+}
+
+.new-collection-img {
+    display: flex;
+}
+
+.new-collection-img .n {
+    background-color: black;
+    padding: 10px 30px;
+    color: white;
+    font-size: 20px;
+    display: table-cell;
+    margin-left: -10%;
+}
+
+.new-collection a {
+    text-decoration: none;
+    background-color: var(--primary-color);
+    padding: 10px 30px;
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.i-1 {
+    margin-left: 39%;
+}
+
+.new-collection-img i {
+    padding-right: 5px;
+    margin-top: 50px;
+    font-size: 16px;
+    color: rgb(255, 174, 0);
+    display: inline-block;
+}
+
+.s {
+    margin-left: 12%;
+    border-bottom: 1px solid black;
+    position: absolute;
+    display: block;
+    font-size: 20px;
+}
+
+.div-11,
+.div-12 {
+    height: 400px;
+    width: 50%;
+    box-shadow: 1px 2px 8px grey;
+}
+
+
+/* .div-11 {
+    position: absolute;
+    z-index: 1;
+    margin-right: 10px;
+}
+
+.div-12 {
+    position: relative;
+}
+ */
+
+.div-11 {
+    margin-right: 10px;
+}
+
+.testimonial {
+    margin-top: 100px;
+    height: 600px;
+    margin-bottom: 100px;
+}
+
+.testimonial h1,
+.testimonial p {
+    color: black;
+    text-align: left;
+}
+
+.testimonial-1 {
+    padding: 30px;
+    width: 100%;
+    background-color: rgb(199, 199, 199);
+    display: inline-flex;
+}
+
+.testimonial-img a {
+    text-decoration: none;
+    background-color: var(--primary-color);
+    padding: 10px 30px;
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.testimonial-img {
+    padding-top: 50px;
+    padding-left: 130px;
+}
+
+.testimonial-img h1 {
+    color: black;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.testimonial-img h1 span {
+    font-weight: bold;
+    font-size: 60px;
+    display: block;
+    color: var(--primary-color);
+}
+
+.products {
+    background-color: var(--primary-color);
+}
+
+.product-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 30px 0;
+    padding-top: 60px;
+}
+
+.product-img h6 {
+    padding-top: 30px;
+}
+
+.product-img div {
+    padding: 0 20px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+}
+
+.product-img i {
+    padding: 3px;
+    font-size: 15px;
+    display: inline-block;
+    color: rgb(255, 174, 0);
+}
+
+.product-img h4 {
+    margin-left: 30px;
+}
+
+.product-img img {
+    padding-top: 10%;
+}
+
+.prouduct-1 h1,
+.prouduct-1 p {
+    color: black;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.products a {
+    text-decoration: none;
+    background-color: black;
+    padding: 10px 30px;
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 40%;
+    margin-bottom: 30px;
+}
+
+.contact {
+    margin-bottom: 100px;
+    margin-left: 10%;
+    width: 90%;
+    display: inline-flex;
+}
+
+.form-contact {
+    padding-right: 30px;
+    width: 40%;
+}
+
+.form-contact h1 {
+    color: black;
+}
+
+form {
+    padding-left: 50px;
+    height: 534px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    background-color: rgb(110, 110, 110);
+}
+
+form input {
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 2px;
+    display: block;
+    width: 90%;
+    padding: 10px 10px;
+}
+
+textarea {
+    border: none;
+    border-radius: 2px;
+    width: 90%;
+    padding: 60px 15px;
+    margin-bottom: 30px;
+}
+
+.contact-img {
+    width: 30%;
+}
+
+.contact-img a {
+    position: absolute;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 50px;
+    color: black;
+    font-size: 25px;
+    display: inline-block;
+    margin-left: 20%;
+    margin-top: -20%;
+}
+
+.form-contact a {
+    margin-left: 30%;
+    text-decoration: none;
+    background-color: var(--primary-color);
+    padding: 10px 30px;
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+footer h1,
+p {
+    color: white;
+}
+
+.ftr-2 {
+    background-color: var(--primary-color);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.ftr-1 {
+    background-color: rgb(36, 36, 36);
+}
+
+.ftr-11 {
+    padding: 30px 0;
+    margin-left: 15%;
+    display: inline-flex;
+}
+
+.ftr-11 a {
+    color: white;
+    text-decoration: none;
+}
+
+.ftr-11 div {
+    padding-right: 100px;
+}
+
+.ftr-11 div:not(.imgg) {
+    padding-top: 30px;
+}
+
+.ftr-11 i {
+    padding-right: 20px;
+}
+
+.ftr-12 {
+    margin: 20px;
+    display: inline-flex;
+}
+
+.ftr-12 div:first-of-type {
+    padding-top: 20px;
+    padding-right: 20px;
+    margin-left: 15%;
+}
+
+.ftr-12 input {
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
+.ftr-12 a {
+    text-decoration: none;
+    background-color: var(--primary-color);
+    padding: 5px 30px;
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.main-18 {
+    padding: 30px 0;
+    margin-bottom: 100px;
+    color: white;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+.main-18 h1 {
+    font-weight: bold;
+    font-size: 40px;
+}
